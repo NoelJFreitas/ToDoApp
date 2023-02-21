@@ -5,7 +5,7 @@ import ScreenTemplate from 'src/components/ScreenTemplate/ScreenTemplate';
 
 const logo = require('src/assets/images/logo.png');
 
-export default function SplashScreen() {
+export default function OnboardingScreen() {
   return (
     <ScreenTemplate style={styles.container}>
       <Image source={logo} resizeMode="contain" style={styles.image} />
